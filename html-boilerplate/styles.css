@@ -1,17 +1,23 @@
-div {
-    color: white;
-    background-color: black;
-}
-
 p {
     color: red;
+    font-weight: bold;
+    text-align: center;
 }
 
 .ape,
 .monkey {
+    font-family: "DejaVu Sans", sans-serif;
     color: rgb(123, 60, 0);
 }
 
 .monkey.proboscis {
     color: pink;
+    background-color:rgb(123, 60, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    height: 450px;
+    width: 500px;
 }
